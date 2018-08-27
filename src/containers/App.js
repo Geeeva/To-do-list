@@ -71,9 +71,9 @@ class App extends Component {
                                 </a> 
                             </figure>
                         </div>
-                        <p className="email">
+                        <div className="email">
                             <a href="mailto:ivana.gilich@gmail.com">or email me here</a>
-                        </p>
+                        </div>
                     </div>
                 </footer>
           </div>
