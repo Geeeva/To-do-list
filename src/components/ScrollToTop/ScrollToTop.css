@@ -1,0 +1,46 @@
+/*** Scroll to the top ***/
+
+.App .footer-wrapper #frame-wrapper {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.App .footer-wrapper #frame-wrapper #frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50%;
+    border-radius: 50%;
+    transition: background-color .3s ease-in-out;
+}
+
+.App .footer-wrapper #frame-wrapper:hover #frame {
+    background-color: #00BAAC;
+}
+
+.App .footer-wrapper .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-family: FuturaBold;
+    color: #003547;
+    transition: color .3s ease-in-out;
+}
+
+.App .footer-wrapper #frame-wrapper:hover .centered {
+    color: #fff;
+}
+
