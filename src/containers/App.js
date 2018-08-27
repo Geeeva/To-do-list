@@ -42,11 +42,9 @@ class App extends Component {
             <div className="App">
                 <header className="header-wrapper">
                     <h1>Developer's TO-DO-LIST for: <span>{date}</span> </h1>
-                    <div>
-                        <svg id="triangle_header" viewBox="0 420.4 1280 28.1">
-                            <polyline id="triangle" fill="#98EFE5" points="1280,448.5 2.1,448.5 1280,420.4 "/>
-                        </svg>
-                    </div>
+                    <svg id="triangle_header" viewBox="0 420.4 1280 28.1">
+                        <polyline id="triangle" fill="#98EFE5" points="1280,448.5 2.1,448.5 1280,420.4 "/>
+                    </svg>
                 </header>
                 <ToDoList example={example} />
                 <footer className="footer-wrapper">

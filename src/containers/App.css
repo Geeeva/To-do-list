@@ -111,6 +111,8 @@
 .App #triangle-footer {
     display: block;
     background-color: #01657F;
+    -webkit-transform: scale(1.000001);
+    transform: scale(1.000001);
 }
 
 .App .social-footer {
